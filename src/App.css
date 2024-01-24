@@ -1,0 +1,334 @@
+body {
+  background-color: rgb(34, 34, 84);
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+.bodyDiv2 {
+  background-color: rgb(34, 34, 84);
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 40px;
+}
+
+.bodyDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(34, 34, 84);
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  overflow-y: hidden;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+.main-div {
+  width: 100vw;
+  height: 100vh;
+}
+.initail--page {
+  width: 400px;
+  color: White;
+  height: 200px;
+}
+.quizlet-heading {
+  font-size: 70px;
+}
+
+.startQuix--btn {
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(34, 34, 84);
+  border: none;
+  border-radius: 7px;
+}
+.startQuix--btn:hover {
+  width: 105px;
+  box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.75);
+}
+.mcq-div {
+  border: solid rgb(102, 54, 214) 5px;
+  border-radius: 10px;
+  width: 800px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.question {
+  font-size: 20px;
+  color: rgb(34, 34, 84);
+  font-weight: 500;
+  width: 700px;
+}
+.mcq--innerDiv {
+  align-items: center;
+  margin-bottom: 0px;
+}
+.option-btn {
+  width: 40px;
+  height: 35px;
+  border-radius: 20px;
+}
+.option {
+  width: 500px;
+}
+.singleOptionsDiv {
+  width: 600px;
+  height: 80px;
+  align-items: center;
+  display: flex;
+  font-weight: 500;
+  font-size: 18px;
+  justify-content: space-evenly;
+}
+
+.singleOptionsDiv:hover {
+  background-color: rgb(43, 43, 83);
+  color: white;
+  border-radius: 10px;
+}
+.allMcqs-div {
+  width: 700px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.nextBtn {
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: rgb(34, 34, 84);
+  border: none;
+  border-radius: 7px;
+  color: white;
+}
+.next-btnDiv {
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}
+.isLoading-dots {
+  width: 30px;
+  height: 30px;
+  font-weight: 700;
+  font-size: 40px;
+}
+.isLoading-text {
+  font-size: 70px;
+  font-weight: 700;
+  color: white;
+}
+.correctSelected {
+  background-color: green;
+  color: white;
+}
+
+.wrongSelected {
+  background-color: green;
+  color: white;
+}
+.checkBtn {
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: rgb(34, 34, 84);
+  border: none;
+  border-radius: 7px;
+  color: white;
+}
+
+.Result-div {
+  display: flex;
+  justify-content: center;
+}
+.CorrectAnswer-appearance {
+  padding: 10px;
+  width: 170px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(34, 34, 84);
+  color: white;
+}
+
+.Wrong-resultDiv {
+  padding: 10px;
+  width: 300px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(34, 34, 84);
+  color: white;
+}
+
+.wrong-Text {
+  font-size: 20px;
+  font-weight: 600;
+}
+.selectedOptionBG {
+  background-color: rgb(80, 80, 126);
+  color: white;
+  border-radius: 10px;
+}
+.second-attempt {
+  color: white;
+  background-color: rgb(246, 108, 108);
+  height: 50px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+.selected {
+  width: 45px;
+  height: 45px;
+  border-radius: 20px;
+}
+.inputName {
+  border-bottom-left-radius: 0px;
+}
+.input-group-text {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  border-right: 1px solid gainsboro;
+}
+.final-resultDiv {
+  width: 400px;
+  background-color: white;
+  color: rgb(34, 34, 84);
+  font-size: 25px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px;
+}
+.popper-gif {
+  width: 130px;
+  height: 130px;
+  background-size: 100%;
+  padding: 20px;
+}
+.play-again {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(34, 34, 84);
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.fetching-failed {
+  margin-top: 250px;
+  color: white;
+  background-color: rgb(246, 108, 108);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.isLoading {
+  margin-top: 250px;
+  background-color: white;
+  color: rgb(34, 34, 84);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+@media (max-width: 800px) {
+  body {
+    padding: 70px;
+  }
+  .main-div {
+    padding-top: 40px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .mcq-div {
+    border: solid rgb(102, 54, 214) 5px;
+    width: auto;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
+  .question {
+    font-size: 15px;
+    color: rgb(34, 34, 84);
+    font-weight: 500;
+    width: 300px;
+  }
+
+  .mcq--innerDiv {
+    width: 300px;
+  }
+
+  .option {
+    width: 200px;
+  }
+
+  .singleOptionsDiv {
+    width: 300px;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+    height: auto;
+  }
+
+  .next-btnDiv {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .Wrong-resultDiv {
+    padding: 10px;
+    width: 200px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(34, 34, 84);
+    color: white;
+  }
+
+  .initail--page {
+    width: auto;
+    color: White;
+    height: 200px;
+  }
+
+  .singleOptionsDiv:hover {
+    background-color: rgb(43, 43, 83);
+    color: white;
+    border-radius: 10px;
+  }
+
+  .final-resultDiv {
+    width: auto;
+    background-color: white;
+    color: rgb(34, 34, 84);
+    font-size: 25px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px;
+    text-align: center;
+  }
+}
